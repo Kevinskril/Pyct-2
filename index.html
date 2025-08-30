@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VettekPet - Tu clínica, más organizada. Tu mascota, más cuidada.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-paw"></i>
+                <h1>VettekPet</h1>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link active">Inicio</a>
+                <a href="#features" class="nav-link">Características</a>
+                <a href="#benefits" class="nav-link">Beneficios</a>
+                <a href="#demo" class="nav-link">Demo</a>
+                <a href="#pricing" class="nav-link">Precios</a>
+                <a href="#testimonials" class="nav-link">Testimonios</a>
+            </nav>
+            <div class="header-actions">
+                <button class="btn btn-outline">Iniciar Sesión</button>
+                <button class="btn btn-primary">Probar Gratis</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Tu clínica, más organizada.<br>
+                        <span class="highlight">Tu mascota, más cuidada.</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        VettekPet es el sistema de gestión veterinaria más completo y fácil de usar. 
+                        Organiza citas, historiales médicos y facturación en una sola plataforma.
+                    </p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary btn-large">
+                            <i class="fas fa-play"></i>
+                            Ver Demo
+                        </button>
+                        <button class="btn btn-secondary btn-large">
+                            <i class="fas fa-calendar"></i>
+                            Agendar Demo
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Clínicas confían en nosotros</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label">Mascotas atendidas</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">99%</span>
+                            <span class="stat-label">Tiempo de actividad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-animation">
+                        <!-- Fila 1 -->
+                        <div class="pet-card" style="top: 60px; left: 60px;">
+                            <i class="fas fa-dog"></i>
+                            <span>Max</span>
+                        </div>
+                        <div class="pet-card" style="top: 60px; left: 240px;">
+                            <i class="fas fa-heartbeat"></i>
+                            <span>Salud</span>
+                        </div>
+                        <div class="pet-card" style="top: 60px; right: 60px;">
+                            <i class="fas fa-stethoscope"></i>
+                            <span>Consulta</span>
+                        </div>
+                        
+                        <!-- Fila 2 -->
+                        <div class="pet-card" style="top: 200px; left: 60px;">
+                            <i class="fas fa-syringe"></i>
+                            <span>Vacunas</span>
+                        </div>
+                        <div class="pet-card" style="top: 200px; left: 240px;">
+                            <i class="fas fa-pills"></i>
+                            <span>Tratamiento</span>
+                        </div>
+                        <div class="pet-card" style="top: 200px; right: 60px;">
+                            <i class="fas fa-home"></i>
+                            <span>Cuidado</span>
+                        </div>
+                        
+                        <!-- Fila 3 -->
+                        <div class="pet-card" style="top: 340px; left: 60px;">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>Citas</span>
+                        </div>
+                        <div class="pet-card" style="top: 340px; left: 240px;">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>App</span>
+                        </div>
+                        <div class="pet-card" style="top: 340px; right: 60px;">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Control</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Características Principales</h2>
+                    <p>Todo lo que necesitas para gestionar tu clínica veterinaria de manera eficiente</p>
+                </div>
+                
+                <div class="features-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" data-tab="veterinarios">
+                            <i class="fas fa-user-md"></i>
+                            Para Veterinarios
+                        </button>
+                        <button class="tab-btn" data-tab="clientes">
+                            <i class="fas fa-users"></i>
+                            Para Clientes
+                        </button>
+                    </div>
+                    
+                    <div class="tab-content active" id="veterinarios">
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-calendar-check"></i>
+                                </div>
+                                <h3>Gestión de Citas</h3>
+                                <p>Programa y organiza citas de manera inteligente con recordatorios automáticos y gestión de horarios.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-file-medical"></i>
+                                </div>
+                                <h3>Historial Médico</h3>
+                                <p>Accede al historial completo de cada mascota con tratamientos, vacunas y resultados de laboratorio.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-bell"></i>
+                                </div>
+                                <h3>Recordatorios</h3>
+                                <p>Sistema automático de recordatorios para vacunas, tratamientos y revisiones periódicas.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-receipt"></i>
+                                </div>
+                                <h3>Facturación</h3>
+                                <p>Genera facturas profesionales, gestiona pagos y mantén un control financiero completo.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <h3>Reportes y Estadísticas</h3>
+                                <p>Analiza el rendimiento de tu clínica con reportes detallados y métricas en tiempo real.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <h3>App Móvil</h3>
+                                <p>Accede a tu clínica desde cualquier lugar con nuestra aplicación móvil completa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="clientes">
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <h3>Agendar Citas</h3>
+                                <p>Reserva citas online de manera fácil y rápida, eligiendo el horario que mejor te convenga.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-history"></i>
+                                </div>
+                                <h3>Historial de Mascota</h3>
+                                <p>Consulta el historial médico completo de tu mascota, tratamientos y próximas vacunas.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-bell"></i>
+                                </div>
+                                <h3>Notificaciones</h3>
+                                <p>Recibe recordatorios importantes sobre vacunas, tratamientos y citas programadas.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-credit-card"></i>
+                                </div>
+                                <h3>Pagos Online</h3>
+                                <p>Realiza pagos de manera segura y rápida desde la comodidad de tu hogar.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <h3>Chat con Veterinario</h3>
+                                <p>Comunícate directamente con tu veterinario para consultas rápidas y seguimiento.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <h3>Seguridad Total</h3>
+                                <p>Tus datos y los de tu mascota están protegidos con la máxima seguridad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="benefits">
+            <div class="container">
+                <div class="section-header">
+                    <h2>¿Por qué elegir VettekPet?</h2>
+                    <p>Descubre cómo nuestro sistema transforma la gestión de tu clínica veterinaria</p>
+                </div>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Ahorra Tiempo</h3>
+                        <p class="benefit-number">Reduce el ausentismo en citas hasta un 40% con recordatorios automáticos</p>
+                        <ul class="benefit-list">
+                            <li>Gestión automática de horarios</li>
+                            <li>Recordatorios SMS y email</li>
+                            <li>Confirmaciones automáticas</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Organiza la Información</h3>
+                        <p class="benefit-number">Accede a toda la información de tus pacientes en segundos</p>
+                        <ul class="benefit-list">
+                            <li>Historial médico completo</li>
+                            <li>Búsqueda inteligente</li>
+                            <li>Backup automático en la nube</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Mejora la Atención</h3>
+                        <p class="benefit-number">Incrementa la satisfacción del cliente en un 85%</p>
+                        <ul class="benefit-list">
+                            <li>Comunicación directa con clientes</li>
+                            <li>Seguimiento personalizado</li>
+                            <li>Reportes de salud automáticos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Demo Section -->
+        <section id="demo" class="demo">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Conoce VettekPet en Acción</h2>
+                    <p>Explora las funcionalidades principales de nuestro sistema</p>
+                </div>
+                
+                <div class="demo-content">
+                    <div class="demo-video">
+                        <div class="video-placeholder">
+                            <i class="fas fa-play-circle"></i>
+                            <span>Video Demo</span>
+                        </div>
+                    </div>
+                    
+                    <div class="demo-features">
+                        <div class="demo-feature">
+                            <div class="demo-icon">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <div class="demo-text">
+                                <h4>Interfaz Intuitiva</h4>
+                                <p>Diseño moderno y fácil de usar para toda tu equipo</p>
+                            </div>
+                        </div>
+                        
+                        <div class="demo-feature">
+                            <div class="demo-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="demo-text">
+                                <h4>Acceso Móvil</h4>
+                                <p>Gestiona tu clínica desde cualquier dispositivo</p>
+                            </div>
+                        </div>
+                        
+                        <div class="demo-feature">
+                            <div class="demo-icon">
+                                <i class="fas fa-sync"></i>
+                            </div>
+                            <div class="demo-text">
+                                <h4>Sincronización en Tiempo Real</h4>
+                                <p>Todos los cambios se reflejan instantáneamente</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Planes y Precios</h2>
+                    <p>Elige el plan que mejor se adapte a las necesidades de tu clínica</p>
+                </div>
+                
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Básico</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">29</span>
+                                <span class="period">/mes</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Hasta 100 pacientes</li>
+                            <li><i class="fas fa-check"></i> Gestión básica de citas</li>
+                            <li><i class="fas fa-check"></i> Historial médico básico</li>
+                            <li><i class="fas fa-check"></i> Soporte por email</li>
+                        </ul>
+                        <button class="btn btn-outline btn-full">Comenzar Gratis</button>
+                    </div>
+                    
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Más Popular</div>
+                        <div class="pricing-header">
+                            <h3>Profesional</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">59</span>
+                                <span class="period">/mes</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Pacientes ilimitados</li>
+                            <li><i class="fas fa-check"></i> Gestión avanzada de citas</li>
+                            <li><i class="fas fa-check"></i> Historial médico completo</li>
+                            <li><i class="fas fa-check"></i> Facturación integrada</li>
+                            <li><i class="fas fa-check"></i> App móvil</li>
+                            <li><i class="fas fa-check"></i> Soporte prioritario</li>
+                        </ul>
+                        <button class="btn btn-primary btn-full">Probar Gratis</button>
+                    </div>
+                    
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Premium</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">99</span>
+                                <span class="period">/mes</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Todo del plan Profesional</li>
+                            <li><i class="fas fa-check"></i> Múltiples sucursales</li>
+                            <li><i class="fas fa-check"></i> Reportes avanzados</li>
+                            <li><i class="fas fa-check"></i> Integración con laboratorios</li>
+                            <li><i class="fas fa-check"></i> API personalizada</li>
+                            <li><i class="fas fa-check"></i> Gerente de cuenta dedicado</li>
+                        </ul>
+                        <button class="btn btn-outline btn-full">Contactar Ventas</button>
+                    </div>
+                </div>
+                
+                <div class="pricing-footer">
+                    <p>Todos los planes incluyen 14 días de prueba gratuita</p>
+                    <button class="btn btn-secondary">Comparar Planes</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Lo que dicen nuestros clientes</h2>
+                    <p>Testimonios reales de veterinarios y clínicas que confían en VettekPet</p>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"VettekPet ha transformado completamente la gestión de nuestra clínica. El tiempo que ahorramos en administración lo dedicamos a cuidar mejor a nuestras mascotas."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user-md"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Dr. Carlos García</h4>
+                                <span>Clínica Veterinaria San Francisco</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Como cliente, me encanta poder agendar citas online y recibir recordatorios. Ya no se me olvidan las vacunas de Luna y Max."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>María González</h4>
+                                <span>Dueña de mascotas</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"La facturación automática y los reportes han mejorado significativamente nuestro control financiero. Recomiendo VettekPet 100%."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user-md"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Dra. Ana Rodríguez</h4>
+                                <span>Hospital Veterinario Central</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
