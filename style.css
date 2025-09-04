@@ -332,22 +332,31 @@ body {
     text-align: center;
 }
 
+/* Posiciones por defecto (desktop) usando clases específicas */
+.pet-1 { top: 60px; left: 60px; }
+.pet-2 { top: 60px; left: 240px; }
+.pet-3 { top: 60px; right: 60px; }
+.pet-4 { top: 200px; left: 60px; }
+.pet-5 { top: 200px; left: 240px; }
+.pet-6 { top: 200px; right: 60px; }
+.pet-7 { top: 340px; left: 60px; }
+.pet-8 { top: 340px; left: 240px; }
+.pet-9 { top: 340px; right: 60px; }
+
 /* Colores por filas */
-.pet-card:nth-child(1) i,
-.pet-card:nth-child(2) i,
-.pet-card:nth-child(3) i {
+.pet-1 i,
+.pet-2 i,
+.pet-3 i {
     color: var(--primary-color); /* Verde para mascotas y salud */
 }
-
-.pet-card:nth-child(4) i,
-.pet-card:nth-child(5) i,
-.pet-card:nth-child(6) i {
+.pet-4 i,
+.pet-5 i,
+.pet-6 i {
     color: var(--secondary-color); /* Azul para servicios veterinarios */
 }
-
-.pet-card:nth-child(7) i,
-.pet-card:nth-child(8) i,
-.pet-card:nth-child(9) i {
+.pet-7 i,
+.pet-8 i,
+.pet-9 i {
     color: #f59e0b; /* Naranja para cuidado y tecnología */
 }
 
@@ -895,17 +904,17 @@ body {
     }
     
     /* Ajustar posiciones para tablets */
-    .pet-card:nth-child(1) { top: 50px; left: 50px; }
-    .pet-card:nth-child(2) { top: 50px; left: 150px; }
-    .pet-card:nth-child(3) { top: 50px; right: 50px; }
-    
-    .pet-card:nth-child(4) { top: 170px; left: 50px; }
-    .pet-card:nth-child(5) { top: 170px; left: 150px; }
-    .pet-card:nth-child(6) { top: 170px; right: 50px; }
-    
-    .pet-card:nth-child(7) { top: 290px; left: 50px; }
-    .pet-card:nth-child(8) { top: 290px; left: 150px; }
-    .pet-card:nth-child(9) { top: 290px; right: 50px; }
+    .pet-1 { top: 50px; left: 50px; }
+    .pet-2 { top: 50px; left: 200px; }
+    .pet-3 { top: 50px; right: 50px; }
+
+    .pet-4 { top: 170px; left: 50px; }
+    .pet-5 { top: 170px; left: 200px; }
+    .pet-6 { top: 170px; right: 50px; }
+
+    .pet-7 { top: 290px; left: 50px; }
+    .pet-8 { top: 290px; left: 200px; }
+    .pet-9 { top: 290px; right: 50px; }
 }
 
 @media (max-width: 768px) {
@@ -959,17 +968,17 @@ body {
     }
     
     /* Ajustar posiciones para móviles */
-    .pet-card:nth-child(1) { top: 40px; left: 40px; }
-    .pet-card:nth-child(2) { top: 40px; left: 120px; }
-    .pet-card:nth-child(3) { top: 40px; right: 40px; }
-    
-    .pet-card:nth-child(4) { top: 140px; left: 40px; }
-    .pet-card:nth-child(5) { top: 140px; left: 120px; }
-    .pet-card:nth-child(6) { top: 140px; right: 40px; }
-    
-    .pet-card:nth-child(7) { top: 240px; left: 40px; }
-    .pet-card:nth-child(8) { top: 240px; left: 120px; }
-    .pet-card:nth-child(9) { top: 240px; right: 40px; }
+    .pet-1 { top: 40px; left: 40px; }
+    .pet-2 { top: 40px; left: 160px; }
+    .pet-3 { top: 40px; right: 40px; }
+
+    .pet-4 { top: 140px; left: 40px; }
+    .pet-5 { top: 140px; left: 160px; }
+    .pet-6 { top: 140px; right: 40px; }
+
+    .pet-7 { top: 240px; left: 40px; }
+    .pet-8 { top: 240px; left: 160px; }
+    .pet-9 { top: 240px; right: 40px; }
     
     .features-grid,
     .benefits-grid,
@@ -1021,15 +1030,15 @@ body {
     }
     
     /* Ajustar posiciones para móviles pequeños */
-    .pet-card:nth-child(1) { top: 30px; left: 30px; }
-    .pet-card:nth-child(2) { top: 30px; left: 90px; }
-    .pet-card:nth-child(3) { top: 30px; right: 30px; }
-    
-    .pet-card:nth-child(4) { top: 110px; left: 30px; }
-    .pet-card:nth-child(5) { top: 110px; left: 90px; }
-    .pet-card:nth-child(6) { top: 110px; right: 30px; }
-    
-    .pet-card:nth-child(7) { top: 190px; left: 30px; }
-    .pet-card:nth-child(8) { top: 190px; left: 90px; }
-    .pet-card:nth-child(9) { top: 190px; right: 30px; }
+    .pet-1 { top: 30px; left: 30px; }
+    .pet-2 { top: 30px; left: 120px; }
+    .pet-3 { top: 30px; right: 30px; }
+
+    .pet-4 { top: 110px; left: 30px; }
+    .pet-5 { top: 110px; left: 120px; }
+    .pet-6 { top: 110px; right: 30px; }
+
+    .pet-7 { top: 190px; left: 30px; }
+    .pet-8 { top: 190px; left: 120px; }
+    .pet-9 { top: 190px; right: 30px; }
 }
