@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const buttonText = this.textContent.trim();
                 
                 if (buttonText.includes('Demo') || buttonText.includes('Ver Demo')) {
-                    showNotification('Demo iniciándose... Prepárate para conocer VettekPet', 'info');
+                    showNotification('Demo iniciándose... Prepárate para conocer VetekPet', 'info');
                 } else if (buttonText.includes('Probar Gratis')) {
                     showNotification('Redirigiendo al registro gratuito...', 'success');
                 } else if (buttonText.includes('Agendar')) {
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 this.innerHTML = `
                     <i class="fas fa-play-circle"></i>
                     <span>Video Demo Interactivo</span>
-                    <p>Haz clic para ver cómo VettekPet transforma tu clínica</p>
+                    <p>Haz clic para ver cómo VetekPet transforma tu clínica</p>
                 `;
             }, 3000);
         });
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', function() {
             let type = 'info';
             
             if (cardText === 'Max') {
-                message = `¡${cardText} es una mascota feliz! Con VettekPet, su salud está siempre monitoreada.`;
+                message = `¡${cardText} es una mascota feliz! Con VetekPet, su salud está siempre monitoreada.`;
                 type = 'success';
             } else if (cardText === 'Salud') {
                 message = `${cardText}: Mantenemos un registro completo de la salud de tu mascota.`;
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Mostrar mensaje de bienvenida
     setTimeout(() => {
-        showNotification('¡Bienvenido a VettekPet! Haz clic en las tarjetas para explorar nuestras características.', 'success');
+        showNotification('¡Bienvenido a VetekPet! Haz clic en las tarjetas para explorar nuestras características.', 'success');
     }, 2000);
 });
 
